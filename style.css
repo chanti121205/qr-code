@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+}
+main{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
+.container{
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 285px;
+    padding: 10px 10px 20px;
+    border-radius: 7px;
+}
+p{
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-left: 15px;
+    width: 250px;
+    font-size: 15px;
+    color: rgb(160,160,160);
+}
+footer{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 450px) and (min-width: 300px){
+.attribution { font-size: 4px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+}
+main{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+.container{
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 80px;
+    padding: 3px 3px 7px;
+    border-radius: 5px;
+}
+p{
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-left: 0px;
+    width: 80px;
+    font-size: 4.5px;
+    color: rgb(160,160,160);
+}
+h2{
+    font-size: 7px;
+}
+footer{
+    margin-top: 20px;
+}
+}
+
